@@ -9,10 +9,12 @@ import './App.css';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Switch>
         <Route component={Home} path='/' exact />
         <Route component={About} path='/about' />
