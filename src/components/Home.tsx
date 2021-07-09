@@ -1,9 +1,9 @@
 import React from 'react';
 
 function Home() {
-    return(
-        <h1 color="white">Home</h1>
-    );
+  return(
+    <h1 className="heading" style={{color: "white", textAlign: "center"}}>Home</h1>
+  );
 
 }
 
