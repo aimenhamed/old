@@ -2,24 +2,29 @@ import React from 'react';
 import { NavLink }  from 'react-router-dom';
 import { Nav, NavbarContainer, NavItem, NavbarMenu } from './Navbar.styles';
 
-function Navbar() {
+const Navbar = () => {
     return (
         <Nav>
             <NavbarContainer>
                 <NavbarMenu>
                     <NavItem>
                         <NavLink exact to="/" activeClassName='active' className="norm">
-                            .home()
+                            home
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink exact to="/about" activeClassName='active' className="norm">
-                            .about()
+                            about
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink exact to="/projects" activeClassName='active' className="norm">
-                            .projects()
+                            projects
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink exact to="/experience" activeClassName='active' className="norm">
+                            experience
                         </NavLink>
                     </NavItem>
                 </NavbarMenu>

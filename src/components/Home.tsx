@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home() {
+const Home = () => {
   return(
     <h1 className="heading" style={{color: "white", textAlign: "center"}}>Home</h1>
   );
